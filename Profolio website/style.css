@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+}
+
+
+
+body{
+    background-color:  1a181b;
+    min-height:100bh;
+    color:#fff;
+}
+
+.bg{
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bubbles{
+    position:relative;
+    display:flex;
+}
+
+.bubbles span{
+    position: relative;
+    min-width: 30px;
+    height: 30px;
+    background-color: #19E6BC;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #19E6BC44,
+    0 0 50px #19E6BC,
+    0 0 100px #19E6BC;
+    margin: 0 4px;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(75s / var(--i));
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform:translateY(-10vh) scale(1);
+    }
+}
+
+.bubbles span:nth-child(even){
+    background-color: #E61943;
+    box-shadow: 0 0 0 10px #E6194344,
+    0 0 50px #E61943,
+    0 0 100px #E61943;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:20px 10%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    backdrop-filter:blur(20px);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border: dotted;
+    padding:2px 2%;
+}
+
+.navbar a{
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a:hover,
+.navbar a.actrive{
+    color:white;
+}
+
+.home {
+    display:flex;
+    height: 100vh;
+    align-items: center;
+    padding: 0 10%;
+}
+
+
+.home-Content {
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 20;
+
+}
+
+.typewrite{
+    color:#19E6BC;
+}
