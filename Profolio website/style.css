@@ -99,8 +99,13 @@ body{
     height: 100vh;
     align-items: center;
     padding: 0 10%;
-}
+    justify-content: center;
 
+}
+.home-Content h3 {
+    font-size:3.2rem;
+    font-weight:700;
+}
 
 .home-Content {
     backdrop-filter: blur(20px);
@@ -109,6 +114,49 @@ body{
     text-align:center;
 }
 
+
 .typewrite{
     color:#19E6BC;
+}
+
+.social-media a{
+    display:inline-flex;
+    width:3rem;
+    height: 3rem;
+    background-color: gray;
+    border: .2rem solid white;
+    border-radius: 2rem;
+    color: rgb(251, 249, 249);
+    margin: 3rem 1.5rem 3rem 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media a:hover {
+    background: white;
+    border: .2rem solid wheat;
+    box-shadow: 0 0 50px white;
+}
+
+.rv{
+    border: .2rem solid white;
+    color:white;
+    border-radius: 2rem;
+
+    align-items: center;
+    justify-content: center;
+    border-radius: 50rem;
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    font-size:1rem;
+    font:bold;
+    font-size:1.6rem;
+    letter-spacing:.1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.rv:hover{
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 50px white;
 }
