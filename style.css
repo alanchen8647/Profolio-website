@@ -12,6 +12,7 @@ body{
     background-color: black;
     min-height:100bh;
     color:#fff;
+    overflow-x:hidden;
 }
 
 
@@ -154,6 +155,7 @@ body{
     font-weight: 600;
     border: dotted;
     padding:2px 2%;
+    border-radius:6rem;
 }
 
 .navbar a{
@@ -307,7 +309,7 @@ body{
 
 .heading {
     font-size: 5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
     text-align:center;
 }
 
@@ -328,6 +330,7 @@ body{
 
 .about-content{
     text-align:center;
+    font-size:1.5rem;
 }
 
 .profolio{
