@@ -330,7 +330,7 @@ body{
 
 .about-content{
     text-align:center;
-    font-size:1.5rem;
+    font-size:1rem;
 }
 
 .profolio{
@@ -343,7 +343,7 @@ body{
     padding-bottom:6rem;
 }
 
-.card{
+.card1{
     color:white;
     text-align:left;
     border: 5px solid white;
@@ -352,11 +352,11 @@ body{
     border-radius:3rem;
 }
 
-.card p{
+.card1 p{
     padding-top:1rem;
 }
 
-.card h5{
+.card1 h5{
     font-size:1rem;
 }
 
