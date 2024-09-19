@@ -9,9 +9,9 @@
 }
 
 body{
-    background-color: black;
+    background-color: black !important;
     min-height:100bh;
-    color:#fff;
+    color:#fff !important;
     overflow-x:hidden;
 }
 
@@ -203,28 +203,24 @@ body{
     display:inline-flex;
     width:3rem;
     height: 3rem;
-    border: .2rem solid white;
+    border: .2rem solid black;
     border-radius: 2rem;
-    color: rgb(251, 249, 249);
     margin: 3rem 1.5rem 3rem 0;
     align-items: center;
     justify-content: center;
-}
-.social-media box-icon{
     color: #f00;
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
 
-.social-media box-icon:hover{
-    -webkit-filter: none;
-    filter: none;
-}
 
 .social-media a:hover {
     background: white;
+    color:white;
     border: .2rem solid white;
     box-shadow: 0 0 50px white;
+    -webkit-filter: none;
+    filter: none;
 }
 
 .rv{
@@ -382,7 +378,9 @@ body{
 
 
 .project-content{
-    padding: 10rem;
+    width: 80%;
+    margin-right:auto;
+    margin-left:auto;
     align-items:center;
     justify-content:center;
 }
